@@ -1,0 +1,10 @@
+torch
+transformers
+accelerate
+sentencepiece
+protobuf
+numpy
+tqdm
+shortuuid
+# fschat provides the fastchat Python module used by the evaluator.
+fschat
