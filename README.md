@@ -138,12 +138,3 @@ The JSONL file contains generated answers and runtime statistics. The scheduler 
 ## Scheduler
 
 The default evaluation uses TreeGraft's value-guided online scheduler. At each drafting step, the scheduler decides whether to call the middle drafter or continue with the low-cost n-gram drafter.
-
-
-## Notes
-
-- The released code uses relative paths and environment variables only.
-- No cluster-specific job-launch scripts are required.
-- The small drafter in the main evaluation is a training-free n-gram drafter.
-- The middle drafter and target model are standard pretrained causal language models.
-- The released scheduler artifact is used for inference; training the scheduler from scratch is not included in this minimal package.
